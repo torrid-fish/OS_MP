@@ -1,0 +1,297 @@
+===== Test case 1: -ep hw3t1 0 -ep hw3t2 0  =====
+1
+2
+1
+2
+1
+2
+1
+2
+1
+2
+1
+2
+1
+2
+1
+2
+1
+2
+return value:1
+return value:2
+===== Test case 2: -ep hw3t1 50 -ep hw3t2 50  =====
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+return value:2
+===== Test case 3: -ep hw3t1 50 -ep hw3t2 90  =====
+2
+2
+2
+2
+2
+2
+2
+2
+2
+return value:2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+===== Test case 4: -ep hw3t1 100 -ep hw3t2 100  =====
+1
+1
+2
+2
+2
+2
+1
+1
+1
+1
+2
+2
+2
+2
+1
+1
+1
+return value:1
+2
+return value:2
+===== Test case 5: -ep hw3t1 40 -ep hw3t2 55  =====
+2
+2
+2
+2
+2
+2
+2
+2
+2
+return value:2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+===== Test case 6: -ep hw3t1 40 -ep hw3t2 90  =====
+2
+2
+2
+2
+2
+2
+2
+2
+2
+return value:2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+===== Test case 7: -ep hw3t1 90 -ep hw3t2 100  =====
+2
+2
+2
+2
+2
+2
+2
+2
+2
+return value:2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+===== Test case 8: -ep hw3t1 60 -ep hw3t3 50  =====
+1return value:3
+
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+===== Test case 9: -ep hw3t1 0 -ep hw3t3 50 -ep hw3t2 100 -ep hw3t1 50  =====
+2
+2
+2
+2
+2
+2
+2return value:3
+
+2
+2
+return value:2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+===== Test case 10: -ep hw3t1 0 -ep hw3t1 50 -ep hw3t2 100 -ep hw3t2 50 -ep hw3t1 100  =====
+2
+2
+2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+return value:2
+2
+2
+2
+2
+2
+2
+return value:2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+===== Test case 11: -ep hw3t1 60 -ep hw3t3 0 -ep hw3t1 40 -ep hw3t3 100  =====
+return value:3
+1
+1
+1
+1
+1
+1
+return value:3
+1
+1
+1
+return value:1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+===== Test case 12: -ep hw3t2 60 -ep hw3t1 10 -ep hw3t1 40 -ep hw3t3 0  =====
+2
+2
+2
+2
+2
+2
+2
+2return value:3
+
+2
+return value:2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+return value:1
